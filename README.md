@@ -12,6 +12,7 @@ Création de ma propre librairie C, contenant principalement des fonctions de la
 Les "bonus", que j'ai réalisés, sont des fonctions permettant l'utilisation de listes chaînées.
 
 Commencé le Lundi 07 Novembre 2022, rendu le Mardi 22 Novembre 2022. (Environ 70 heures de travail)
+
 Note : 100(+25)/100(+25)
 
 # 01 - printf
@@ -19,4 +20,5 @@ Note : 100(+25)/100(+25)
 Recréation de la fonction printf de la Libc, gérant uniquement les formats suivants : c, s, d, i, u, p, x, X et %.
 
 Commencé le Mardi 22 Novembre 2022, rendu le Vendredi 25 Novembre 2022. (Environ 15 heures de travail)
+
 Note : 100/100(+25)
