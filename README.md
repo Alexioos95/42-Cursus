@@ -22,3 +22,10 @@ Recréation de la fonction printf de la LibC, gérant uniquement les formats sui
 Utilisez ```make``` pour compiler la librairie en format ".a".
 
 Commencé le Mardi 22 Novembre 2022, rendu le Vendredi 25 Novembre 2022. (Environ 15 heures de travail)
+
+## 03 - born2beroot
+
+Installation et configuration d'une machine virtuelle Debian 11, sous politique de sécurité stricte.
+Subject : https://cdn.intra.42.fr/pdf/pdf/57309/fr.subject.pdf
+
+Commencé le Lundi 28 Novembre 2022, rendu le Lundi 05 Décembre 2022. (Environ 20h de travail)
