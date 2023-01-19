@@ -25,9 +25,8 @@ Commencé le Mardi 22 Novembre 2022, rendu le Vendredi 25 Novembre 2022. (Enviro
 
 ## 02 - born2beroot
 
-Installation et configuration d'une machine virtuelle Debian 11, sous politique de sécurité stricte.
-
-Sujet : https://cdn.intra.42.fr/pdf/pdf/68740/en.subject.pdf (Suite à une mise à jour récente, le sujet n'est disponible qu'en Anglais.)
+Installation et configuration d'une machine virtuelle Debian 11, sous politique de sécurité stricte.  
+en.subject : https://cdn.intra.42.fr/pdf/pdf/68740/en.subject.pdf
 
 Commencé le Lundi 28 Novembre 2022, rendu le Lundi 05 Décembre 2022. (Environ 20h de travail)
 
