@@ -11,7 +11,7 @@ Les sujets de chaque projet se trouvent dans les dossiers correspondant.
 Création de ma propre librairie C, contenant principalement des fonctions de la ```glibc```.  
 Les "bonus", sont des fonctions permettant l'utilisation de ```listes chaînées```.
 
-Utilisez ```make``` pour compiler la librairie en format ```.a```. (```make bonus``` pour le faire avec ces derniers.)
+Utilisez ```make``` pour compiler la librairie en ```libft.a```. (```make bonus``` pour le faire avec ces derniers.)
 
 Commencé le Lundi 07 Novembre 2022, rendu le Mardi 22 Novembre 2022. (Environ 70 heures de travail)
 
@@ -19,7 +19,7 @@ Commencé le Lundi 07 Novembre 2022, rendu le Mardi 22 Novembre 2022. (Environ 7
 
 Recréation de la fonction printf de la ```glibc```, gérant uniquement les formats suivants : c, s, d, i, u, p, x, X et %.
 
-Utilisez ```make``` pour compiler la librairie en format ```.a```.
+Utilisez ```make``` pour compiler la librairie en ```libftprintf.a```.
 
 Commencé le Mardi 22 Novembre 2022, rendu le Vendredi 25 Novembre 2022. (Environ 15 heures de travail)
 
@@ -47,7 +47,8 @@ Programme triant (en ordre croissant) une pile contenant les nombres passés en 
 Le programme ne peut utiliser que certaines opérations, qui sont écrites sur le terminal une fois executé.  
 Veuillez lire le sujet présent dans le dossier correspondant au projet pour plus de détail.  
 Les arguments passés en argument ne doivent contenir aucun doublon, ni dépasser les limites d'un ```int```.
-Mon programme utilise un algorithme ```LSD Radix```, en binaire.
+
+Mon interpretation du projet utilise un algorithme ```LSD Radix```, en binaire.
 
 Utilisez ```make``` pour compiler le programme en un executable ```push_swap```.  
 Executez ensuite ```push_swap```, suivi des nombres à trier.
@@ -70,10 +71,22 @@ Commencé le Mardi 17 Janvier 2023, rendu le Lundi 27 Mars 2023. (Environ 150h d
 
 ## [06 - pipex](https://github.com/Alexioos95/42-Cursus/tree/main/06%20-%20pipex)
 
-Recréation du fonctionnement du ```pipe``` (```|```) du système Unix.
+Recréation du fonctionnement du ```pipe``` (|) du système Unix.
 
 Utilisez ```make``` pour compiler le programme en un executable ```pipex```.  
 Donnez à l'executable des arguments comme ceci : ```Infile``` ```Command 1``` ```Command 2``` ```Outfile```.  
-Le bonus permet d'utiliser plusieurs pipes, ainsi que le ```here_doc``` (```<<```).
+Le bonus permet d'utiliser plusieurs pipes, ainsi que le ```here_doc``` (<<).
 
 Commencé le Lundi 27 Février 2023, rendu le Lundi 24 Avril 2023. (Environ 70h de travail)
+
+## [07 - philosophers](https://github.com/Alexioos95/42-Cursus/tree/main/07%20-%20philosophers)
+
+Programme reprenant le problème des ```Dining Philosophers```, avec des ```threads``` et des ```mutexs```.
+
+Utilisez ```make``` pour compiler le programme en un executable ```philo```.  
+Executez ensuite ```philo```, suivi des paramètres suivants : ```Nombre de philo``` ```Temps de vie sans manger``` ```Temps nécessaire pour manger``` ```Temps nécessaire pour dormir``` ```(Optionnel) Nombre de repas pour terminer la simulation```.
+
+Mon interpretation du projet utilise la solution des ```pairs/impairs```, en priorisant les impairs au tout début de la simulation.  
+Je fais, en plus, attendre chaque threads une petite portion de leur  ```Temps de vie sans manger``` après qu'ils aient dormis, afin d'éviter un potentiel vol de fourchette.
+
+Commencé le Mardi 25 Avril 2023, rendu le Mardi 16 Mai 2023. (Environ 70h de travail)
