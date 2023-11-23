@@ -124,10 +124,10 @@ Je m'étais occupé du parsing, tandit que mon partenaire devait prendre en char
 Cependant, suite à un désaccord et manque de communication entre lui et moi, il a choisi de tout effacer et ré-écrire de lui-même...  
 Rien ne sera donc partagé ici.
 
-Commencé le Mardi 17 Octobre 2023, rendu le 23 Novembre 2023. (Environ 48h de travail)
+Commencé le Mardi 15 Aout 2023, rendu le 23 Novembre 2023. (Environ 48h de travail)
 
 ## 11 - piscine c++
 
 Piscine de petits exercices en c++, afin de découvrir la programmation orientée objet.
 
-Commencé le Mardi 17 Octobre 2023, rendu le X. (Environ Xh de travail)
+Commencé le Mardi 17 Octobre 2023, rendu progressivement du Vendredi 20 Octobre, au X. (Environ Xh de travail)
