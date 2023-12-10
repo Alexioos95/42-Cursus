@@ -121,13 +121,12 @@ Reproduction du système de raycasting de Wolfenstein 3D, avec la ```MiniLibX```
 en.subject : https://cdn.intra.42.fr/pdf/pdf/113971/en.subject.pdf
 
 Je m'étais occupé du parsing, tandit que mon partenaire devait prendre en charge la partie des calculs de raycast.  
-Cependant, suite à un désaccord et manque de communication entre lui et moi, il a choisi de tout effacer et ré-écrire de lui-même...  
-Rien ne sera donc partagé ici.
+Cependant, suite à un désaccord et manque de communication entre lui et moi, il a choisi de tout effacer et ré-écrire de lui-même... Rien ne sera donc partagé ici.
 
 Commencé le Mardi 15 Aout 2023, rendu le 23 Novembre 2023. (Environ 48h de travail)
 
-## 11 - piscine c++
+## [11 - piscine cpp](https://github.com/Alexioos95/42-Cursus/tree/main/11%20-%20cpp)
 
 Piscine de petits exercices en c++, afin de découvrir la programmation orientée objet.
 
-Commencé le Mardi 17 Octobre 2023, rendu progressivement du Vendredi 20 Octobre, au X. (Environ Xh de travail)
+Commencé le Mardi 17 Octobre 2023, rendu progressivement du Vendredi 20 Octobre, au Vendredi 07 Décembre 2023. (Environ 110h de travail)
