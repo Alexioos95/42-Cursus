@@ -100,9 +100,9 @@ Réalisé en duo avec [Eli Ewu](https://github.com/Uweile).
 Il s'est occupé du lexical analyser ainsi que de l'implémentation de l'executeur des commandes et redirections, tandit que j'ai fait tout le reste. (Boucle shell, readline, heredoc, expand, built-ins, et signaux.) Vous pouvez voir le repo utilisé durant le développement du projet [ici](https://github.com/Alexioos95/ms).
 
 Suite à la validation du projet, 3 problèmes ont été trouvés...  
-1- Une erreur de if/else if font que ./a_valid_command nous fais chercher dans le PATH du env, trouvant la commande, et l'executant sans problème.
-2- La recherche en relatif est executé en regardant si l'argument envoyé contient un ```.``` en premier charactère, alors que bash regarde s'il y a un ```/``` quelque part.  
-3- Les signaux se superposent lorsque Minishell est lancé dans Minishell.
+1 - Une erreur de if/else if font que ./a_valid_command nous fais chercher dans le PATH du env, trouvant la commande, et l'executant sans problème.  
+2 - La recherche en relatif est executé en regardant si l'argument envoyé contient un ```.``` en premier charactère, alors que bash regarde s'il y a un ```/``` quelque part.  
+3 - Les signaux se superposent lorsque Minishell est lancé dans Minishell.
 
 Commencé le Lundi 22 Mai 2023, rendu le 22 Septembre 2023. (Environ 450h de travail)
 
