@@ -58,6 +58,9 @@ Commencé le Mercredi 04 Janvier 2023, rendu le Lundi 16 Janvier 2023. (Environ 
 
 ## [05 - so_long](https://github.com/Alexioos95/42-Cursus/tree/main/05_so_long)
 
+> [!NOTE]  
+> J'ai utilisé des tics pour le temps des animations, et l'ai réglé spécialement pour les iMacs de l'école 42 de Paris. Il est donc très fortement probable que le programme tourne en acceléré ou en ralenti sur votre système.
+
 Simple jeu 2D, réalisé avec la MiniLibX, la bibliothèque graphique maison de 42.  
 Le but du jeu est de ramasser tous les collectibles dans le labyrinthe, avant de sortir par la porte.
 
@@ -117,19 +120,25 @@ Commencé le Vendredi 16 Septembre, rendu le Mardi 26 Septembre 2023. (Environ 2
 Reproduction du système de raycasting de Wolfenstein 3D, avec la MiniLibX.  
 en.subject : https://smallpdf.com/fr/file#s=5a9178ba-c3b4-4516-886f-7af9d29a3b0e
 
-Je m'étais occupé du parsing, tandit que mon partenaire devait prendre en charge la partie des calculs de raycast.  
-Cependant, suite à un désaccord et manque de communication entre lui et moi, il a choisi de tout effacer et ré-écrire de lui-même... Rien ne sera donc partagé ici.
+> [!IMPORTANT]  
+> Je m'étais occupé du parsing, tandit que mon partenaire devait prendre en charge la partie des calculs de raycast. Cependant, suite à un désaccord et manque de communication entre lui et moi, il a choisi de tout effacer et ré-écrire de lui-même... Rien ne sera donc partagé ici.
 
 Commencé le Mardi 15 Aout 2023, rendu le 23 Novembre 2023. (Environ 48h de travail)
 
 ## [11 - piscine cpp](https://github.com/Alexioos95/42-Cursus/tree/main/11_cpp)
 
-Piscine de petits exercices en c++, afin de découvrir la programmation orientée objet.
+Piscine de petits exercices en C++, afin de découvrir la programmation orientée objet.
 
 Commencé le Mardi 17 Octobre 2023, rendu progressivement du Vendredi 20 Octobre, au Vendredi 07 Décembre 2023. (Environ 110h de travail)
 
-## 12 - webserv
+## [12 - webserv](https://github.com/Alexioos95/42-Cursus/tree/main/12_webserv)
 
-// En court de développement.
+Développement d'un serveur web non bloquant via multiplexage en C++.
 
-Commencé le Jeudi 14 Décembre 2023. (Environ 150h de travail // 15 Février //)
+Utilisez ```make``` pour compiler le programme en un executable ```webserv```.  
+Veuillez lire le readme du dossier pour les détails sur le fichier de configuration.
+
+Réalisé en trio avec [Mathieu Daguenet](https://github.com/Uweile) et [Eli Ewu](https://github.com/Uweile).  
+Je me suis occupé de la totalité de la gestion des communications entre le serveur et le(s) client(s), Mathieu s'est chargé du fichier de configuration, du lancement des CGI, et de la création des cookies, tandit qu'Eli a aider à la création des scripts CGI, et au nettoyage et lisibilité du code.
+
+Commencé le Jeudi 14 Décembre 2023, rendu le Jeudi 28 Mars 2024. (Environ 250h de travail)
