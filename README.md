@@ -117,11 +117,11 @@ Commencé le Vendredi 16 Septembre, rendu le Mardi 26 Septembre 2023. (Environ 2
 
 ## 10 - cub3d
 
-Reproduction du système de raycasting de Wolfenstein 3D, avec la MiniLibX.  
-en.subject : https://smallpdf.com/fr/file#s=5a9178ba-c3b4-4516-886f-7af9d29a3b0e
-
 > [!IMPORTANT]  
 > Je m'étais occupé du parsing, tandis que mon partenaire devait prendre en charge la partie des calculs de raycast. Cependant, suite à un désaccord et manque de communication entre lui et moi, il a choisi de tout effacer et réécrire de lui-même... Rien ne sera donc partagé ici.
+
+Reproduction du système de raycasting de Wolfenstein 3D, avec la MiniLibX.  
+en.subject : https://smallpdf.com/fr/file#s=5a9178ba-c3b4-4516-886f-7af9d29a3b0e
 
 Commencé le Mardi 15 Aout 2023, rendu le 23 Novembre 2023. (Environ 48h de travail)
 
@@ -145,6 +145,17 @@ Commencé le Jeudi 14 Décembre 2023, rendu le Jeudi 28 Mars 2024. (Environ 250h
 
 ## [13 - inception](https://github.com/Alexioos95/42-Cursus/tree/main/13_inception)
 
+> [!NOTE]  
+> Du à la règle du sujet concernant le fichier ".env", il est nécessaire de le créer manuellement dans le dossier srcs, et y ajouter les différentes variables d'environnement que j'ai utilisé dans les scripts.
+
 Découverte de Docker, et setup d'un site Wordpress, hébergé localement sur Nginx via ```docker compose```.
 
 Commencé le Mardi 9 Avril, rendu le Vendredi 19 Avril 2024. (Environ 70 de travail)
+
+## 14 - ft_transcendance
+
+Single-page web application d'un jeu Pong.
+
+En cours de développement.
+
+Commencé le Mercredi 22 Mai 2024.
