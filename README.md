@@ -156,7 +156,7 @@ Commencé le Mardi 9 Avril, rendu le Vendredi 19 Avril 2024. (Environ 70 de trav
 
 Single-page web application d'un jeu Pong.
 
-Ajoutez un fichier ```.env``` dans le dossier ```services``, puis utilisez ```make``` pour lancer les dockers. Le site sera herbergé localement sur le port ```4433```.
+Ajoutez un fichier ```.env``` dans le dossier ```services```, puis utilisez ```make``` pour lancer les dockers. Le site sera herbergé localement sur le port ```4433```.
 
 Dûe à un cruel manque de temps, de nombreuses features ont été abandonné, en cours de développement ou à l'état de simple idées.
 [Repo de développement](https://github.com/Alexioos95/transcendance).
