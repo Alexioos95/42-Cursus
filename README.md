@@ -15,7 +15,7 @@ Les "bonus", sont des fonctions permettant l'utilisation de listes chaînées.
 
 Utilisez ```make``` pour compiler la librairie en ```libft.a```. (```make bonus``` pour le faire avec ces derniers.)
 
-Commencé le Lundi 07 Novembre 2022, rendu le Mardi 22 Novembre 2022. (Environ 70 heures de travail)
+Commencé le Lundi 07 Novembre 2022, rendu le Mardi 22 Novembre 2022.
 
 ## [01 - ft_printf](https://github.com/Alexioos95/42-Cursus/tree/main/01_ft_printf)
 
@@ -23,14 +23,14 @@ Reproduction partielle de la fonction ```printf``` de la glibc, gérant les form
 
 Utilisez ```make``` pour compiler la librairie en ```libftprintf.a```.
 
-Commencé le Mardi 22 Novembre 2022, rendu le Vendredi 25 Novembre 2022. (Environ 15 heures de travail)
+Commencé le Mardi 22 Novembre 2022, rendu le Vendredi 25 Novembre 2022.
 
 ## 02 - born2beroot
 
 Installation et configuration d'une machine virtuelle Debian 11, sous politique de sécurité stricte.  
 en.subject : https://smallpdf.com/fr/file#s=5a9178ba-c3b4-4516-886f-7af9d29a3b0e
 
-Commencé le Lundi 28 Novembre 2022, rendu le Lundi 05 Décembre 2022. (Environ 20h de travail)
+Commencé le Lundi 28 Novembre 2022, rendu le Lundi 05 Décembre 2022.
 
 ## [03 - get_next_line](https://github.com/Alexioos95/42-Cursus/tree/main/03_get_next_line)
 
@@ -40,7 +40,7 @@ Compilez ```get_next_line.c``` et ```get_next_line_utils.c``` pour afficher la p
 
 Ajouter le flag ```-D BUFFER_SIZE=n``` lors de la compilation permet de modifier la taille du buffer utilisé par la fonction ```read``` à ```n```. (La taille du buffer a été mise à 42 par défaut.)
 
-Commencé le Mardi 06 Décembre 2022, rendu le Lundi 12 Décembre 2022. (Environ 25h de travail)
+Commencé le Mardi 06 Décembre 2022, rendu le Lundi 12 Décembre 2022.
 
 ## [04 - push_swap](https://github.com/Alexioos95/42-Cursus/tree/main/04_push_swap)
 
@@ -54,7 +54,7 @@ Mon interprétation du projet utilise un algorithme ```LSD Radix```, en binaire.
 Utilisez ```make``` pour compiler le programme en un exécutable ```push_swap```.  
 Exécutez ensuite ```push_swap```, suivi des nombres à trier.
 
-Commencé le Mercredi 04 Janvier 2023, rendu le Lundi 16 Janvier 2023. (Environ 50h de travail)
+Commencé le Mercredi 04 Janvier 2023, rendu le Lundi 16 Janvier 2023.
 
 ## [05 - so_long](https://github.com/Alexioos95/42-Cursus/tree/main/05_so_long)
 
@@ -69,7 +69,7 @@ Les fonctionnalités du jeu étant choisies par moi-même, vous les trouverez d�
 
 Utilisez ```make``` pour compiler le programme en un exécutable ```so_long```. (```make bonus``` pour avoir le véritable jeu.) Exécutez ensuite ```so_long```, suivi du chemin relatif d'une carte au format ```.ber```. (Voir le sujet pour les précisions liées à la création de cartes.) Le dossier ```maps``` en contient quelques-unes pour tester le programme, et le dossier ```bonus/maps_bonus``` en contient d'autres, faîtes spécialement pour le bonus.
 
-Commencé le Mardi 17 Janvier 2023, rendu le Lundi 27 Mars 2023. (Environ 150h de travail)
+Commencé le Mardi 17 Janvier 2023, rendu le Lundi 27 Mars 2023.
 
 ## [06 - pipex](https://github.com/Alexioos95/42-Cursus/tree/main/06_pipex)
 
@@ -79,7 +79,7 @@ Utilisez ```make``` pour compiler le programme en un exécutable ```pipex```.
 Donnez à l'executable des arguments comme ceci : "./pipex ```Infile``` ```Command 1``` ```Command 2``` ```Outfile```".  
 Le bonus permet d'utiliser plusieurs pipes, ainsi que le ```here_doc (<<)```.
 
-Commencé le Lundi 27 Février 2023, rendu le Lundi 24 Avril 2023. (Environ 70h de travail)
+Commencé le Lundi 27 Février 2023, rendu le Lundi 24 Avril 2023.
 
 ## [07 - philosophers](https://github.com/Alexioos95/42-Cursus/tree/main/07_philosophers)
 
@@ -90,7 +90,7 @@ Exécutez ensuite ```philo```, comme ceci : "./philo ```"Nombre_de_philo"``` ```
 
 Mon interprétation du projet utilise la solution des ```pairs/impairs```, en priorisant les impairs au tout début de la simulation. Je fais, en plus, attendre chaque thread une petite portion de leur ```Temps_de_vie_sans_manger``` après qu'ils aient dormis, afin d'éviter un potentiel vol de fourchette.
 
-Commencé le Mardi 25 Avril 2023, rendu le Mardi 16 Mai 2023. (Environ 70h de travail)
+Commencé le Mardi 25 Avril 2023, rendu le Mardi 16 Mai 2023.
 
 ## [08 - minishell](https://github.com/Alexioos95/42-Cursus/tree/main/08_minishell)
 
@@ -107,13 +107,13 @@ Suite à la validation du projet, 3 problèmes ont été trouvés...
 2 - La recherche en relatif est exécuté en regardant si l'argument envoyé contient un ```.``` en premier caractère, alors que bash regarde s'il y a un ```/``` quelque part.  
 3 - Les signaux se superposent lorsque Minishell est lancé dans Minishell.
 
-Commencé le Lundi 22 Mai 2023, rendu le 22 Septembre 2023. (Environ 450h de travail)
+Commencé le Lundi 22 Mai 2023, rendu le 22 Septembre 2023.
 
 ## 09 - netpractice
 
 Petits exercices afin d'apprendre comment l'adressage IP fonctionne.
 
-Commencé le Vendredi 16 Septembre, rendu le Mardi 26 Septembre 2023. (Environ 20h de travail)
+Commencé le Vendredi 16 Septembre, rendu le Mardi 26 Septembre 2023.
 
 ## 10 - cub3d
 
@@ -123,13 +123,13 @@ Commencé le Vendredi 16 Septembre, rendu le Mardi 26 Septembre 2023. (Environ 2
 Reproduction du système de raycasting de Wolfenstein 3D, avec la MiniLibX.  
 en.subject : https://smallpdf.com/fr/file#s=76d950c0-e29b-498e-bced-f6e125c5d4cb
 
-Commencé le Mardi 15 Aout 2023, rendu le 23 Novembre 2023. (Environ 48h de travail)
+Commencé le Mardi 15 Aout 2023, rendu le 23 Novembre 2023.
 
 ## [11 - piscine cpp](https://github.com/Alexioos95/42-Cursus/tree/main/11_cpp)
 
 Piscine de petits exercices en C++, afin de découvrir la programmation orientée objet.
 
-Commencé le Mardi 17 Octobre 2023, rendu progressivement du Vendredi 20 Octobre, au Vendredi 07 Décembre 2023. (Environ 110h de travail)
+Commencé le Mardi 17 Octobre 2023, rendu progressivement du Vendredi 20 Octobre, au Vendredi 07 Décembre 2023.
 
 ## [12 - webserv](https://github.com/Alexioos95/42-Cursus/tree/main/12_webserv)
 
@@ -141,7 +141,7 @@ Veuillez lire le readme du dossier pour les détails sur le fichier de configura
 Réalisé en trio avec [Mathieu Daguenet](https://github.com/Uweile) et [Eli Ewu](https://github.com/Uweile).  
 Je me suis occupé de la totalité de la gestion des communications entre le serveur et les clients, Mathieu s'est chargé du fichier de configuration, du lancement des CGI, et de la création des cookies, tandis qu'Eli a aider à la création des scripts CGI, et au nettoyage et lisibilité du code.
 
-Commencé le Jeudi 14 Décembre 2023, rendu le Jeudi 28 Mars 2024. (Environ 250h de travail)
+Commencé le Jeudi 14 Décembre 2023, rendu le Jeudi 28 Mars 2024.
 
 ## [13 - inception](https://github.com/Alexioos95/42-Cursus/tree/main/13_inception)
 
@@ -156,6 +156,15 @@ Commencé le Mardi 9 Avril, rendu le Vendredi 19 Avril 2024. (Environ 70 de trav
 
 Single-page web application d'un jeu Pong.
 
-En cours de développement.
+Ajoutez un fichier ```.env``` dans le dossier ```services``, puis utilisez ```make``` pour lancer les dockers. Le site sera herbergé localement sur le port ```4433```.
 
-Commencé le Mercredi 22 Mai 2024.
+Dûe à un cruel manque de temps, de nombreuses features ont été abandonné, en cours de développement ou à l'état de simple idées.
+[Repo de développement](https://github.com/Alexioos95/transcendance).
+
+Crédits:  
+[Alexis Payen](https://github.com/Alexioos95/) - Entièreté du Front-end (hormis le Tetris abandonné en cours de développement); documentation de l'API.
+[Mathieu Daguenet](https://github.com/Daguenet-Mathieu) - Planification et organisation du projet; Back-end côté user, mail et bases de données; Tetris Front-end (abandonnée en cours développement).
+[Fabrice Guarraci](https://github.com/djfg0) - Dockerisation; Back-end côté user et bases de données.
+[Nassim Salhi](https://github.com/Notte7692) - Back-end côté live chat et pong (partiellement abandonnée en cours développement).
+
+Commencé le Mercredi 22 Mai 2024, rendu le 18 Septembre 2024.
