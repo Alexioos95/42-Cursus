@@ -1,0 +1,95 @@
+server {
+	server_name qr.code;
+	listen 8080 8081 8082;
+	root /qr/;
+	error /error_page {
+		403 403.html;
+		404 404.html;
+	}
+	body_size 999999;
+	location / {
+		method {
+			GET
+		}
+		index /html/index.html;
+	}
+	location /css {
+		method {
+			GET
+		}
+	}
+	location /html {
+		method {
+			GET
+		}
+	}
+	location /images {
+		method {
+			GET
+		}
+	}
+	location /index.html {
+		method {
+			GET
+		}
+		alias /html/index.html;
+	}
+	location /error_page {
+	}
+}
+
+server {
+	server_name netpractice.net;
+	listen 8090 8091 8092;
+	root /np/;
+	body_size 999999;
+	location /img {
+		method {
+			GET
+		}
+	}
+	location /js {
+		method {
+			GET
+		}
+	}
+}
+
+server {
+	server_name form.org;
+	listen 9000;
+	listen 9001 9002;
+	root /form;
+	body_size 999999;
+	location / {
+		method {
+			GET
+			POST
+		}
+		allow_cgi;
+		index /index.html;
+		dir_post /download;
+	}
+	location /index.html {
+		method {
+			GET
+			POST
+			DELETE
+		}
+		dir_post /download;
+	}
+	location /upload {
+		method {
+			POST
+		}
+		dir_post /download;
+	}
+	location /download {
+		method {
+			GET
+			POST
+			DELETE
+		}
+		allow_autoindex;
+	}
+}
