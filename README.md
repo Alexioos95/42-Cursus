@@ -25,7 +25,7 @@ $ ./a.out
 
 Bibliothèque C contenant une fonction reproduisant l'utilité de la fonction ```printf``` de la ```glibc```, gérant les formats les plus simples.
 
-Usage: ```make``` afin de créer une bibliothèque static ```libft.a```, que l'on peut ensuite inclure au linkage d'un programme.
+Usage: ```make``` afin de créer une bibliothèque static ```libftprintf.a```, que l'on peut ensuite inclure au linkage d'un programme.
 ```c
 #include "libftprintf.h"
 
