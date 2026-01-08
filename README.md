@@ -78,7 +78,7 @@ Usage: ```make``` afin de créer le programme ```push_swap```.
 $ ./push_swap "5" "1 2"
 ```
 
-## [05 - so_long](https://github.com/Alexioos95/42-Cursus/tree/main/05_so_long)
+## [Projet 05 - so_long](https://github.com/Alexioos95/42-Cursus/tree/main/05_so_long)
 
 Simple jeu 2D, réalisé avec la bibliothèque graphique minimale de 42. Le but du jeu est de ramasser tous les collectibles dans un labyrinthe, avant de sortir par la porte.
 
@@ -94,7 +94,7 @@ $ ./so_long maps/small.ber
 >   
 > Le bonus de ce projet nous permettant de laisser libre cours à notre imagination, je suis parti sur l'idée d'un clone de pac-man ! Les fonctionnalités du jeu étant choisies par moi-même, vous les trouverez détaillées dans le dossier du projet. J'ai cependant utilisé des tics pour le temps des animations, et les ai réglés spécialement pour les postes iMacs de l'école 42 de Paris. Il est donc très fortement probable que le programme tourne en accéléré ou en ralenti sur tout autre système.
 
-## [06 - pipex](https://github.com/Alexioos95/42-Cursus/tree/main/06_pipex)
+## [Projet 06 - pipex](https://github.com/Alexioos95/42-Cursus/tree/main/06_pipex)
 
 Programme reproduisant le fonctionnement du pipe (```|```) d'un shell Unix.
 
@@ -108,7 +108,7 @@ $ ./pipex /dev/stdin "ls -la" "cat" /dev/stdout
 > $ ./pipex /dev/stdin "ls -la" "cat" "wc -l" /dev/stdout  
 > $ ./pipex here_doc delim ls cat /dev/stdout
 
-## [07 - philosophers](https://github.com/Alexioos95/42-Cursus/tree/main/07_philosophers)
+## [Projet 07 - philosophers](https://github.com/Alexioos95/42-Cursus/tree/main/07_philosophers)
 
 Programme faisant une simulation du problème des "Dining Philosophers", avec des ```threads``` et des ```mutex```.
 
@@ -118,7 +118,7 @@ $ ./philo <nb_philo> <time_to_live> <time_to_eat> <time_to_sleep>
 $ ./philo 4 500 200 100
 ```
 
-## [08 - minishell](https://github.com/Alexioos95/42-Cursus/tree/main/08_minishell)
+## [Projet 08 - minishell](https://github.com/Alexioos95/42-Cursus/tree/main/08_minishell)
 
 Reproduction partielle d'un ```shell bash```. Vous pouvez voir le repo utilisé durant le développement du projet [ici](https://github.com/Alexioos95/ms).
 
@@ -132,18 +132,18 @@ Crédits:
 [Alexis Payen](https://github.com/Alexioos95/) - Mise en place de la boucle Shell; execution des heredocs; expands des variables; fonctions built-ins; gestion de signaux.  
 [Eli Ewu](https://github.com/Uweile) - Lexical analyser de l'input; executeur de commande et redirection; récupération des code de status des commandes.
 
-## 09 - netpractice
+## Projet 09 - netpractice
 
 Petits exercices afin de comprendre comment l'adressage IP fonctionne.
 
-## 10 - cub3d
+## Projet 10 - cub3d
 
 Programme affichant un labyrinthe en raycasting, avec la bibliothèque graphique minimale de 42.  
 
 > [!IMPORTANT]  
 > Projet à réaliser en groupe de deux, mais dû à certaines circonstances du côté de mon partenaire, je refuse de partager le code du projet.
 
-## [11 - piscine cpp](https://github.com/Alexioos95/42-Cursus/tree/main/11_cpp)
+## [Projet 11 - piscine cpp](https://github.com/Alexioos95/42-Cursus/tree/main/11_cpp)
 
 Groupement de petits exercices en C++ 98, afin de découvrir la programmation orientée objet.
 
@@ -160,7 +160,7 @@ Chaque module se concentre sur une thématique:
 8. Containers et itérateurs  
 9. Utilisations de containers
 
-## [12 - webserv](https://github.com/Alexioos95/42-Cursus/tree/main/12_webserv)
+## [Projet 12 - webserv](https://github.com/Alexioos95/42-Cursus/tree/main/12_webserv)
 
 Développement d'un serveur web HTTP 1.1 non bloquant via multiplexage en C++.  
 Veuillez lire le README du dossier pour les détails sur le fichier de configuration.
@@ -175,13 +175,13 @@ Crédits:
 [Mathieu Daguenet](https://github.com/Daguenet-Mathieu) - Designing et parsing du fichier de configuration; lancement de scripts CGI et cookies.  
 [Eli Ewu](https://github.com/Uweile) - Aide à la création des scripts CGI de test; nettoyage et lisibilité du code.
 
-## [13 - inception](https://github.com/Alexioos95/42-Cursus/tree/main/13_inception)
+## [Projet 13 - inception](https://github.com/Alexioos95/42-Cursus/tree/main/13_inception)
 
 Découverte de Docker, à travers l'installation d'un site WordPress hébergé sur un Nginx local.
 
 Usage: ```make``` afin de lancer les 3 Dockers, ce qui permettra l'accès au site depuis ```localhost```.
 
-## [14 - ft_transcendance](https://github.com/Alexioos95/transcendance)
+## [Projet 14 - ft_transcendance](https://github.com/Alexioos95/transcendance)
 
 Single-page web application d'un jeu Pong en JavaScript Vanilla et Django.
 
