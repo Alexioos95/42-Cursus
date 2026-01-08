@@ -59,7 +59,7 @@ BONUS = ft_lstnew.c	\
 		ft_lstmap.c
 BOBJ = $(BONUS:.c=.o)
 
-CC = cc
+CC = clang
 FLAGS = -Wall -Wextra -Werror
 RM = rm -f
 HEADER = libft.h

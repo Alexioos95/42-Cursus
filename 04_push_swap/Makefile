@@ -22,7 +22,7 @@ SRC = push_swap.c	\
 		./algorithm/radix.c
 OBJ = $(SRC:.c=.o)
 
-CC = cc
+CC = clang
 FLAGS = -Wall -Wextra -Werror
 RM = rm -f
 

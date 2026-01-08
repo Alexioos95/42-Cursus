@@ -54,10 +54,8 @@ void	scoreswitch(struct s_mlx *game, int nb, int pos)
 
 void	score(struct s_mlx *game)
 {
-	int	nb;
 	int	space;
 
-	nb = 0;
 	space = 10;
 	if (game->nbmove <= 9999 && game->nblock == 0)
 	{

@@ -33,8 +33,8 @@ BONUS =	./bonus/pipex_bonus.c \
 		./bonus/utils.c
 BOBJ = $(BONUS:.c=.o)
 
-CC = scan-build-12 cc
-FLAGS = -Wall -Wextra -Werror -Weverything -g3
+CC = clang
+FLAGS = -Wall -Wextra -Werror -g3
 RM = rm -f
 
 all : $(NAME)

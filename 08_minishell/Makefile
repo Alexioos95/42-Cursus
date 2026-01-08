@@ -61,7 +61,7 @@ OBJ =		$(SRC:.c=.o)
 
 OBJDIR	=	obj
 
-CC =		cc
+CC =		clang
 
 FLAGS =		-Wall -Wextra -Werror -g3
 

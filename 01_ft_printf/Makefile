@@ -25,7 +25,7 @@ SRC = ft_printf.c	\
 		ft_strlen.c
 OBJ = $(SRC:.c=.o)
 
-CC = cc
+CC = clang
 FLAGS = -Wall -Wextra -Werror
 RM = rm -rf
 

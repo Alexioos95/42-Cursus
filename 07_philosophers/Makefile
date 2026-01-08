@@ -19,7 +19,7 @@ SRC = philo.c	\
 		state.c
 OBJ = $(SRC:.c=.o)
 
-CC = cc
+CC = clang
 FLAGS = -Wall -Wextra -Werror
 RM = rm -f
 
