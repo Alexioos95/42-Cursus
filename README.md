@@ -4,7 +4,7 @@ Ce repo contient tous les projets du tronc commun (cursus principal) de l'école
 
 ## [Projet 00 - libft](https://github.com/Alexioos95/42-Cursus/tree/main/00_libft)
 
-Bibliothèque C, contenant principalement des reproductions de fonctions existantes de la ```glibc```. J'ai cependant évité de l'inclure au projets suivants afin de ne pas avoir à suivre les règles voulues dans ce cas, et ai préféré ré-écrire, souvent différement, les fonctions dont j'avais besoin sur le moment.
+Bibliothèque C, contenant principalement des reproductions de fonctions existantes de la ```glibc```.
 
 Usage: ```make``` afin de créer une bibliothèque static ```libft.a```, que l'on peut ensuite inclure au linkage d'un programme.
 ```c
@@ -39,7 +39,7 @@ $ ./a.out
 
 ## Projet 02 - born2beroot
 
-Découverte de la virtualisation, à travers l'installation et configuration d'une machine virtuelle Debian 11 sous politique de sécurité stricte, via VirtualBox.
+Découverte de la virtualisation avec VirtualBox, à travers l'installation et configuration d'une machine virtuelle Debian 11 sous politique de sécurité stricte.
 
 ## [Projet 03 - get_next_line](https://github.com/Alexioos95/42-Cursus/tree/main/03_get_next_line)
 
@@ -59,19 +59,20 @@ int main()
 	char *file_content = "";
 	while (str = get_next_line(fd))
 		strjoin(file_content, str);
+	printf("%s\n", file_content);
 }
 ```
 ```sh
 $ cc your_code.c get_next_line.c get_next_line_utils.c
+$ ./a.out
 ```
 
 > [!NOTE]  
-> Contient des sources ```_bonus```, qui permettent à la fonction de faire la différence entre les fds.
+> Contient des sources ```<nom>_bonus```, qui permettent à la fonction de faire la différence entre plusieurs fds.
 
 ## [Projet 04 - push_swap](https://github.com/Alexioos95/42-Cursus/tree/main/04_push_swap)
 
-Programme triant en ordre croissant une pile contenant les nombres passés en argument, en utilisant 2 piles (```a``` et ```b```) et des opérations simples (```PushA```, ```PushB```, ```SwapA```, ```RotateA```, et ```ReverseRotateA```).  
-Mon interprétation du projet utilise un algorithme ```LSD Radix``` en binaire.
+Programme triant en ordre croissant une pile contenant les nombres passés en argument, en utilisant 2 piles (```a``` et ```b```) et des opérations simples (```PushA```, ```PushB```, ```SwapA```, ```RotateA```, et ```ReverseRotateA```). Mon interprétation du projet utilise un algorithme ```LSD Radix``` en binaire.
 
 Usage: ```make``` afin de créer le programme ```push_swap```.
 ```sh
@@ -84,7 +85,7 @@ Simple jeu 2D, réalisé avec la bibliothèque graphique minimale de 42. Le but 
 
 Usage: ```make``` afin de créer le programme ```so_long```.
 ```sh
-$ ./so_long <map.ber>
+$ ./so_long <map>.ber
 $ ./so_long maps/small.ber
 ```
 
@@ -104,7 +105,8 @@ $ ./pipex <infile> <cmd> <cmd> <outfile>
 $ ./pipex /dev/stdin "ls -la" "cat" /dev/stdout
 ```
 > [!NOTE]  
-> Contient un ```make bonus```, qui ajoute la gestion de multiple pipes sur une seule ligne de commande, ainsi qu'une gestion prototype de heredocs.  
+> Contient un ```make bonus```, qui ajoute la gestion de multiple pipes sur une seule ligne de commande, ainsi qu'une gestion prototype de heredocs.
+> 
 > $ ./pipex /dev/stdin "ls -la" "cat" "wc -l" /dev/stdout  
 > $ ./pipex here_doc delim ls cat /dev/stdout
 
@@ -120,12 +122,15 @@ $ ./philo 4 500 200 100
 
 ## [Projet 08 - minishell](https://github.com/Alexioos95/42-Cursus/tree/main/08_minishell)
 
-Reproduction partielle d'un ```shell bash```. Vous pouvez voir le repo utilisé durant le développement du projet [ici](https://github.com/Alexioos95/ms).
+Reproduction partielle d'un ```shell bash```.
 
 Usage: ```make``` afin de créer le programme ```minishell```.
 ```sh
 $ ./minishell
 apayen&eewu@minishell$ <cmd>
+
+$ ./minishell
+apayen&eewu@minishell$ cat Makefile|ls -la >./test
 ```
 
 Crédits:  
@@ -141,13 +146,11 @@ Petits exercices afin de comprendre comment l'adressage IP fonctionne.
 Programme affichant un labyrinthe en raycasting, avec la bibliothèque graphique minimale de 42.  
 
 > [!IMPORTANT]  
-> Projet à réaliser en groupe de deux, mais dû à certaines circonstances du côté de mon partenaire, je refuse de partager le code du projet.
+> Projet à réaliser en groupe de deux, mais dues à certaines circonstances du côté de mon partenaire, je ne partagerai pas le code du projet ici.
 
 ## [Projet 11 - piscine cpp](https://github.com/Alexioos95/42-Cursus/tree/main/11_cpp)
 
-Groupement de petits exercices en C++ 98, afin de découvrir la programmation orientée objet.
-
-Chaque module se concentre sur une thématique:
+Groupement de petits exercices en C++98, afin de découvrir la programmation orientée objet. Chaque module se concentre sur une thématique:
 
 0. Syntaxes C++ et classes  
 1. Allocations dynamiques et références  
@@ -179,20 +182,13 @@ Crédits:
 
 Découverte de Docker, à travers l'installation d'un site WordPress hébergé sur un Nginx local.
 
-Usage: ```make``` afin de lancer les 3 Dockers, ce qui permettra l'accès au site depuis ```localhost```.
+Usage: ```make``` afin de lancer les 3 containers, ce qui permettra l'accès au site depuis ```localhost```.
 
 ## [Projet 14 - ft_transcendance](https://github.com/Alexioos95/transcendance)
 
-Single-page web application d'un jeu Pong en JavaScript Vanilla et Django.
+Single-page Web application d'un jeu Pong en JavaScript et Django.
 
-Usage: Créer un ```.env``` dans le dossier service (un exemple est fourni), puis ```make``` afin de lancer les Dockers, ce qui permettra l'accès au site depuis le localhost.
-
-> [!NOTE]  
-> Dû au setup de 42, nous avons utilisé le port 4433 sur une VM, avec une redirection sur le port 443 pour le host.
-
-> [!IMPORTANT]  
-> Suite à un cruel manque de temps, de nombreuses features ont été abandonnées, en cours de développement ou à l'état de simple idées.  
-> Cela comprend un stabilisateur de FPS, ce qui cause le jeu d'être paramétré uniquement pour les Dells de 42 Paris, et étant en accéléré ou ralenti selon les systèmes.
+Usage: Créer un ```.env``` dans le dossier service (un exemple est fourni), puis ```make``` afin de lancer les containers, ce qui permettra l'accès au site depuis ```localhost```.
 
 Crédits:  
 [Alexis Payen](https://github.com/Alexioos95/) - Entièreté du Front-end (hormis le Tetris); documentation de l'API.  
